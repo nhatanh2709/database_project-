@@ -1,7 +1,7 @@
 import pandas as pd
 path = input("Path:")
-path_input = path + "\\LuocdoQuanhe.xlsx"
-path_output = path + "\\LuocdoQuanhe.sql"
+path_input = path + "\\HOCTAP.xlsx"
+path_output = path + "\\HOCTAP.sql"
 file_sql = open(path_output, mode = 'w', encoding = "utf-8-sig")
 # print(path_output)
 # read file
